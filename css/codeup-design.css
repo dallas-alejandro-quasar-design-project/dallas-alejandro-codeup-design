@@ -92,6 +92,10 @@ a {
 		justify-content: center;
 	}
 
+	.tablet-view-jumbotron {
+		visibility: visible;
+	}
+
 }
 
 
