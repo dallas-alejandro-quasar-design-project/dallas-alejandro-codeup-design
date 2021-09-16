@@ -60,6 +60,15 @@ a {
 .blue-circle {
 	background-color: #228d84;
 }
-.pic-caption {
- /*display: inline;*/
+
+
+@media screen and (min-width:767px) {
+
+}
+
+
+
+
+@media screen and (min-width:991px) {
+
 }
