@@ -101,12 +101,12 @@ a {
 	.tablet-view-circles {
 		visibility: visible;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 	}
 	.tablet-circle {
 		font-family: 'Bebas Neue', cursive;
-		width: 121px;
-		height: 121px;
+		width: 130px;
+		line-height: 121px;
 		border: .5rem solid white;
 		border-radius: 50%;
 		text-align: center;
