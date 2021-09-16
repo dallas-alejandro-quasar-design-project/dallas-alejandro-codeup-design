@@ -14,8 +14,10 @@ a {
 	top: 2rem;
 }
 .jumbotron {
+	position: relative;
 	background-color: #e6e6e6;
 	font-family: 'Bebas Neue', cursive;
+	bottom: 20px;
 }
 .circle {
 	font-family: 'Bebas Neue', cursive;
@@ -24,6 +26,7 @@ a {
 	border: .5rem solid #f0f0f0;
 	border-radius: 50%;
 	text-align: center;
+	color: #f0f0f0;
 }
 .small-circles {
 	font-family: 'Bebas Neue', cursive;
@@ -76,10 +79,15 @@ picture > img {
 	padding: 2px;
 }
 
-@media screen and (min-width:320px) {
-.tablet-view-jumbotron {
-	display: none;
+.mobile-view-nav {
+	position: relative;
+	bottom: 45px;
 }
+
+@media screen and (min-width:320px) {
+	.tablet-view-jumbotron {
+		display: none;
+	}
 }
 
 @media screen and (min-width:767px) {
@@ -121,6 +129,13 @@ picture > img {
 		border: .5rem solid white;
 		border-radius: 50%;
 		text-align: center;
+		color: #f0f0f0;
+	}
+	hr {
+		width: 65%;
+		height: 3.5px;
+		background-color: lightgrey;
+		border: none;
 	}
 
 }
