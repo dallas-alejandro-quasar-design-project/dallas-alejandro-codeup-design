@@ -28,12 +28,17 @@ a {
 .small-circles {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 10px;
-	width: 1rem;
-	height: 1rem;
-	border: 2px solid transparent;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	border: 1px solid transparent;
 	border-radius: 50%;
 	text-align: center;
-	padding: 8px;
+	/*padding: 5px;*/
+}
+.small-circle-text {
+	line-height: 18px;
+	text-align: center;
 }
 .circle-text {
 	display: inline-block;
