@@ -60,9 +60,57 @@ a {
 .blue-circle {
 	background-color: #228d84;
 }
+.tablet-container {
+	display: none;
+}
+.tablet-container-2 {
+	display: none;
+}
 
+@media screen and (min-width:320px) {
+
+}
 
 @media screen and (min-width:767px) {
+	.mobile-view-nav {
+		display: none;
+	}
+	.mobile-view-jumbotron {
+		display: none;
+	}
+	.mobile-view-circles {
+		display: none;
+	}
+	.tablet-view-nav {
+		visibility: visible;
+	}
+
+	.tablet-container {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.tablet-container-2 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.tablet-view-jumbotron {
+		visibility: visible;
+	}
+	.tablet-view-circles {
+		visibility: visible;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.tablet-circle {
+		font-family: 'Bebas Neue', cursive;
+		width: 121px;
+		height: 121px;
+		border: .5rem solid white;
+		border-radius: 50%;
+		text-align: center;
+	}
 
 }
 
