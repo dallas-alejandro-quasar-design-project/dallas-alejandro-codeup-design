@@ -32,11 +32,21 @@
 		}
 		.circle {
 			font-family: 'Bebas Neue', cursive;
-			width: 115px;
+			width: 121px;
 			line-height: 105px;
 			border: .5rem solid white;
 			border-radius: 50%;
 			text-align: center;
+		}
+		.small-circles {
+			font-family: 'Bebas Neue', cursive;
+			font-size: 10px;
+			width: 1rem;
+			height: 1rem;
+			border: 2px solid transparent;
+			border-radius: 50%;
+			text-align: center;
+			padding: 8px;
 		}
 		.circle-text {
 			display: inline-block;
@@ -45,8 +55,9 @@
 		}
 		.red-circle {
 			background-color: rgba(255, 0, 0, 0.69);
-			
-			
+		}
+		.small-red-circle {
+			/*font-size: 10px;*/
 		}
 		.orange-circle {
 			background-color: rgba(255, 165, 0, 0.66);
@@ -57,7 +68,9 @@
 		.blue-circle {
 			background-color: #228d84;
 		}
+		.pic-caption {
 		
+		}
 		
 	</style>
 	
@@ -106,6 +119,42 @@
 			<div class="circle blue-circle m-2"><span class="circle-text">HOST</span></div>
 		</div>
 	</div>
+
+<!-- footer for mobile view	-->
+	<footer class="d-flex flex-column justify-content-end align-items-center mt-5 mx-auto">
+		<header>
+			<h5>SELECTED WORK</h5>
+		</header>
+		<div class="mx-4">
+			<picture>
+				<img src="assets/images/apple-ipad.jpg" alt="apple-ipad" width="250" height="175">
+			</picture>
+			<div class="container">
+				<div class="row">
+					<div class="col-6 mr-auto mt-1 ">
+						<h5 class="pic-caption">FEATURED PROJECT</h5>
+					</div>
+					<div class="col-6 d-flex ml-auto mt-1">
+						<div class="small-circles small-red-circle red-circle m-1">
+							D
+						</div>
+						<div class="small-circles orange-circle m-1">
+							D
+						</div>
+						<div class="small-circles green-circle m-1">
+							S
+						</div>
+						<div class="small-circles blue-circle m-1">
+							H
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
+		
+	</footer>
 	
 
 
