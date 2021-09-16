@@ -60,9 +60,37 @@ a {
 .blue-circle {
 	background-color: #228d84;
 }
+.tablet-container {
+	display: none;
+}
+.tablet-container-2 {
+	display: none;
+}
 
+@media screen and (min-width:320px) {
+
+}
 
 @media screen and (min-width:767px) {
+	.mobile-view-nav {
+		display: none;
+	}
+	.mobile-view-jumbotron {
+		display: none;
+	}
+	.tablet-view-nav {
+		visibility: visible;
+	}
+
+	.tablet-container {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.tablet-container-2 {
+		display: flex;
+		justify-content: center;
+	}
 
 }
 

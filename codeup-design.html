@@ -15,84 +15,229 @@
 </head>
 <body>
 <!-- Decided to try a diffrent approach and place a background div for the white strip up top and it worked perfectly	-->
-	<div class="top-background"></div>
-	<nav class="navbar justify-content-center">
-		<a class="navbar-brand d-md-inline-block" href="#">
+<div class="top-background"></div>
+<!--Tablet view nav below-->
+<div class="tablet-view-nav mt-2">
+	<div class="navbar tablet-container">
+		<div>
+			<a href="#">SERVICES</a>
+		</div>
+		<div>
+			<a href="#">WORK</a>
+		</div>
+		<div>
 			<img src="assets/logo.png" alt="logo" width="105" height="105">
-		</a>
-		<h1 class="d-sm-block">codeup design</h1>
-		<ul class="navbar-nav navbar-expand">
-			<li class="nav-item">
-				<a href="#" class="nav-link mr-3">SERVICES</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link mr-3">WORK</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link mr-3">BLOG</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link">CONTACT</a>
-			</li>
-		</ul>
-	</nav>
+		</div>
+		<div>
+			<a href="#">BLOG</a>
+		</div>
+		<div>
+			<a href="#">CONTACT</a>
+		</div>
+	</div>
+	<div class="tablet-container-2">
+		<div>
+			<h1>codeup design</h1>
+		</div>
+	</div>
+</div>
+<!--Mobile view nav below-->
+<nav class="navbar justify-content-center mobile-view-nav">
+	<a class="navbar-brand d-md-inline-block" href="#">
+		<img src="assets/logo.png" alt="logo" width="105" height="105">
+	</a>
+	<h1 class="d-sm-block">codeup design</h1>
+	<ul class="navbar-nav navbar-expand">
+		<li class="nav-item">
+			<a href="#" class="nav-link mr-3">SERVICES</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link mr-3">WORK</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link mr-3">BLOG</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link">CONTACT</a>
+		</li>
+	</ul>
+</nav>
 
 <!--JUMBOTRON SECTION-->
-	<div class="jumbotron jumbotron-fluid text-center">
-		<h1>VISUAL DESIGN &<br>
-			WEB DEVELOPMENT
-		</h1><br>
-		<h2>FROM PARK CITY, UTAH</h2>
-	</div>
+<div class="jumbotron jumbotron-fluid text-center">
+	<h1>VISUAL DESIGN &<br>
+		WEB DEVELOPMENT
+	</h1><br>
+	<h2>FROM PARK CITY, UTAH</h2>
+</div>
 
 <!--design, develop, support, host CIRCLES-->
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="circle red-circle m-2"><span class="circle-text">DESIGN</span></div>
-			<div class="circle orange-circle m-2"><span class="circle-text">DEVELOP</span></div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="circle green-circle m-2"><span class="circle-text">SUPPORT</span></div>
-			<div class="circle blue-circle m-2"><span class="circle-text">HOST</span></div>
-		</div>
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="circle red-circle m-2"><span class="circle-text">DESIGN</span></div>
+		<div class="circle orange-circle m-2"><span class="circle-text">DEVELOP</span></div>
 	</div>
+	<div class="row justify-content-center">
+		<div class="circle green-circle m-2"><span class="circle-text">SUPPORT</span></div>
+		<div class="circle blue-circle m-2"><span class="circle-text">HOST</span></div>
+	</div>
+</div>
 
 <!-- footer for mobile view	-->
-	<section class="d-flex flex-column align-items-center mt-5 mx-auto">
-		<header>
-			<h5>SELECTED WORK</h5>
-		</header>
-		<div class="ml-4">
-			<picture>
-				<img class="ml-2" src="assets/images/apple-ipad.jpg" alt="apple-ipad" width="250" height="175">
-			</picture>
-			<div class="container">
-				<div class="row mr-2">
-					<div class="col-7 mr-auto mt-1 pt-1">
-						<h6 class="pic-caption">FEATURED PROJECT</h6>
+<section class="d-flex flex-column align-items-center mt-5 mx-auto">
+	<header>
+		<h5>SELECTED WORK</h5>
+	</header>
+	<div class="ml-4">
+		<picture>
+			<img class="ml-2" src="assets/images/apple-ipad.jpg" alt="apple-ipad" width="250" height="175">
+		</picture>
+		<div class="container">
+			<div class="row mr-2">
+				<div class="col-7 mr-auto mt-1 pt-1">
+					<h6 class="pic-caption">FEATURED PROJECT</h6>
+				</div>
+				<div class="col-5 d-flex ml-auto mt-1">
+					<div class="small-circles small-red-circle red-circle m-1">
+						<span class="small-circle-text">D</span>
 					</div>
-					<div class="col-5 d-flex ml-auto mt-1">
-						<div class="small-circles small-red-circle red-circle m-1">
-							<span class="small-circle-text">D</span>
-						</div>
-						<div class="small-circles orange-circle m-1">
-							<span class="small-circle-text">D</span>
-						</div>
-						<div class="small-circles green-circle m-1">
-							<span class="small-circle-text">S</span>
-						</div>
-						<div class="small-circles blue-circle m-1">
-							<span class="small-circle-text">H</span>
-						</div>
+					<div class="small-circles orange-circle m-1">
+						<span class="small-circle-text">D</span>
+					</div>
+					<div class="small-circles green-circle m-1">
+						<span class="small-circle-text">S</span>
+					</div>
+					<div class="small-circles blue-circle m-1">
+						<span class="small-circle-text">H</span>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-	
-		
-	</section>
-	
+	</div>
+
+
+
+</section>
+
+
+
+
+<!-- Decided to try a diffrent approach and place a background div for the white strip up top and it worked perfectly	-->
+
+<!--	<div class="top-background">-->
+<!--	-->
+<!--tablet view nav	-->
+<!--<div class="tablet-view-nav">-->
+<!--		<div class="tablet-container">-->
+<!--			<div>-->
+<!--				<a href="#">SERVICES</a>-->
+<!--			</div>-->
+<!--			<div>-->
+<!--				<a href="#">WORK</a>-->
+<!--			</div>-->
+<!--			<div>-->
+<!--				<img src="assets/logo.png" alt="logo" width="105" height="105">-->
+<!--			</div>-->
+<!--			<div>-->
+<!--				<a href="#">BLOG</a>-->
+<!--			</div>-->
+<!--			<div>-->
+<!--				<a href="#">CONTACT</a>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div class="tablet-container-2">-->
+<!--			<div>-->
+<!--				<h3>codeup design</h3>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--</div>-->
+
+
+<!--mobile view nav-->
+<!--	<nav class="navbar justify-content-center mobile-view-nav">-->
+<!--		<a class="navbar-brand d-md-inline-block" href="#">-->
+<!--			<img src="assets/logo.png" alt="logo" width="105" height="105">-->
+<!--		</a>-->
+<!--		<h1 class="d-sm-block">codeup design</h1>-->
+<!--		<ul class="navbar-nav navbar-expand">-->
+<!--			<li class="nav-item">-->
+<!--				<a href="#" class="nav-link mr-3">SERVICES</a>-->
+<!--			</li>-->
+<!--			<li class="nav-item">-->
+<!--				<a href="#" class="nav-link mr-3">WORK</a>-->
+<!--			</li>-->
+<!--			<li class="nav-item">-->
+<!--				<a href="#" class="nav-link mr-3">BLOG</a>-->
+<!--			</li>-->
+<!--			<li class="nav-item">-->
+<!--				<a href="#" class="nav-link">CONTACT</a>-->
+<!--			</li>-->
+<!--		</ul>-->
+<!--	</nav>-->
+
+<!--JUMBOTRON SECTION-->
+<!-- tablet view jumbotron	-->
+<!--	<div class="tablet-view jumbotron jumbotron-fluid text-center">-->
+<!--		<h1>VISUAL DESIGN & WEB DEVELOPMENT</h1><br>-->
+<!--		<h2>FROM PARK CITY, UTAH</h2>-->
+<!--	</div>-->
+
+<!--mobile view jumbotron-->
+<!--	<div class="mobile-view-jumbotron jumbotron jumbotron-fluid text-center">-->
+<!--		<h1>VISUAL DESIGN &<br>-->
+<!--			WEB DEVELOPMENT-->
+<!--		</h1><br>-->
+<!--		<h2>FROM PARK CITY, UTAH</h2>-->
+<!--	</div>-->
+
+<!--design, develop, support, host CIRCLES-->
+<!--	<div class="container">-->
+<!--		<div class="row justify-content-center">-->
+<!--			<div class="circle red-circle m-2"><span class="circle-text">DESIGN</span></div>-->
+<!--			<div class="circle orange-circle m-2"><span class="circle-text">DEVELOP</span></div>-->
+<!--		</div>-->
+<!--		<div class="row justify-content-center">-->
+<!--			<div class="circle green-circle m-2"><span class="circle-text">SUPPORT</span></div>-->
+<!--			<div class="circle blue-circle m-2"><span class="circle-text">HOST</span></div>-->
+<!--		</div>-->
+<!--	</div>-->
+
+<!-- footer for mobile view	-->
+<!--	<section class="d-flex flex-column align-items-center mt-5 mx-auto">-->
+<!--		<header>-->
+<!--			<h5>SELECTED WORK</h5>-->
+<!--		</header>-->
+<!--		<div class="ml-4">-->
+<!--			<picture>-->
+<!--				<img class="ml-2" src="assets/images/apple-ipad.jpg" alt="apple-ipad" width="250" height="175">-->
+<!--			</picture>-->
+<!--			<div class="container">-->
+<!--				<div class="row mr-2">-->
+<!--					<div class="col-7 mr-auto mt-1 pt-1">-->
+<!--						<h6 class="pic-caption">FEATURED PROJECT</h6>-->
+<!--					</div>-->
+<!--					<div class="col-5 d-flex ml-auto mt-1">-->
+<!--						<div class="small-circles small-red-circle red-circle m-1">-->
+<!--							<span class="small-circle-text">D</span>-->
+<!--						</div>-->
+<!--						<div class="small-circles orange-circle m-1">-->
+<!--							<span class="small-circle-text">D</span>-->
+<!--						</div>-->
+<!--						<div class="small-circles green-circle m-1">-->
+<!--							<span class="small-circle-text">S</span>-->
+<!--						</div>-->
+<!--						<div class="small-circles blue-circle m-1">-->
+<!--							<span class="small-circle-text">H</span>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		-->
+<!--	-->
+<!--		-->
+<!--	</section>-->
+
 
 
 
