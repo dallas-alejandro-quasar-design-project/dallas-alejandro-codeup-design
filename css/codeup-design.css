@@ -5,22 +5,34 @@ body {
 a {
 	color: black;
 }
+.last-col-text {
+	font-family: 'Anton', sans-serif;
+	font-size: xx-large;
+}
+.last-col-container {
+	display: flex;
+	flex-direction: column;
+	height: 3em;
+}
+.last-col-row {
 
+}
 .top-background {
 	height: 4.3rem;
 	width: 100%;
 	background-color: #f0f0f0;
 	position: absolute;
 	top: 2rem;
+	z-index: -1;
 }
 .jumbotron {
 	position: relative;
 	background-color: #e6e6e6;
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Anton', sans-serif;
 	bottom: 20px;
 }
 .circle {
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Anton', sans-serif;
 	width: 121px;
 	line-height: 105px;
 	border: .5rem solid #f0f0f0;
@@ -29,7 +41,7 @@ a {
 	color: #f0f0f0;
 }
 .small-circles {
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Anton', sans-serif;
 	font-size: 10px;
 	width: 18px;
 	height: 18px;
@@ -83,6 +95,9 @@ picture > img {
 	position: relative;
 	bottom: 45px;
 }
+.desktop-nav-view {
+	display: none;
+}
 
 @media screen and (min-width:320px) {
 	.tablet-view-jumbotron {
@@ -91,6 +106,9 @@ picture > img {
 }
 
 @media screen and (min-width:767px) {
+	.desktop-nav-view {
+		display: none;
+	}
 	.mobile-view-nav {
 		display: none;
 	}
@@ -123,7 +141,7 @@ picture > img {
 		justify-content: center;
 	}
 	.tablet-circle {
-		font-family: 'Bebas Neue', cursive;
+		font-family: 'Anton', sans-serif;
 		width: 130px;
 		line-height: 121px;
 		border: .5rem solid white;
@@ -144,5 +162,64 @@ picture > img {
 
 
 @media screen and (min-width:991px) {
+	.tablet-view-nav {
+		display: none;
+	}
 
+	hr {
+		width: 90%;
+		height: 3.5px;
+		background-color: lightgrey;
+		border: none;
+	}
+
+	.last-col-container {
+		height: 700px;
+	}
+
+	.featured-project {
+		height: 300px;
+	}
+
+	.desktop-view {
+		height: 250px;
+		width: 350px;
+	}
+
+	.desktop-nav-view {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		align-items: center;
+		background-color: white;
+		height: 65px;
+		width: 100%;
+	}
+	.sub-dt-nav {
+		display: flex;
+		align-items: center;
+	}
+	.desktop-nav-items {
+		display: flex;
+	}
+	.dt-nav-item-1 {
+		margin: 7px;
+	}
+
+	.top-background {
+		display: none;
+	}
+
+	.desktop-h2 {
+		margin-left: 10px;
+	}
+	/*.top-background-desktop {*/
+	/*	height: 4.3rem;*/
+	/*	width: 100%;*/
+	/*	background-color: #f0f0f0;*/
+	/*	position: absolute;*/
+	/*	top: 2rem;*/
+	/*	z-index: -1;*/
+	/*}*/
 }
