@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	font-family: 'Abel', sans-serif;
 	background-color: #e6e6e6;
@@ -85,10 +88,10 @@ a {
 	display: none;
 }
 
-picture > img {
+.desktop-view{
 	border: 5px solid rgba(240, 240, 240, 0.5);
 	border-radius: 3%;
-	padding: 2px;
+
 }
 
 .mobile-view-nav {
@@ -98,15 +101,13 @@ picture > img {
 .desktop-nav-view {
 	display: none;
 }
-/*.last-dt-container {*/
-/*	display: none;*/
-/*}*/
+
 .desktop-h5 {
 	display: none;
 }
 
 
-@media screen and (min-width:320px) and (max-width: 767px){
+@media screen and (min-width:576px) {
 	.tablet-view-jumbotron {
 		display: none;
 	}
@@ -117,7 +118,7 @@ picture > img {
 
 }
 
-@media screen and (min-width:767px) and (max-width: 900px) {
+@media screen and (min-width:768px)  {
 	.desktop-nav-view {
 		display: none;
 	}
@@ -171,19 +172,13 @@ picture > img {
 		background-color: lightgrey;
 		border: none;
 	}
-	.last-dt-container {
-		display: none;
-	}
-
 }
 
 
 
 
 @media screen and (min-width:900px) {
-	/*.last-dt-container {*/
-	/*	display: contents;*/
-	/*}*/
+
 
 	.tablet-view-nav {
 		display: none;
@@ -198,15 +193,6 @@ picture > img {
 
 	.last-col-container {
 		height: 700px;
-	}
-
-	.featured-project {
-		height: 300px;
-	}
-
-	.desktop-view {
-		height: 250px;
-		width: 350px;
 	}
 
 	.desktop-nav-view {
