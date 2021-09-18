@@ -10,265 +10,380 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/codeup-design.css">
-	<title>Dallas-Alejandro Codeup Design</title>
+	<title>Hello, world!</title>
 </head>
 <body>
-<!-- Decided to try a diffrent approach and place a background div for the white strip up top and it worked perfectly	-->
-<div class="top-background"></div>
-<!--desktop nav-->
-<nav class="desktop-nav-view ">
-	<div class="sub-dt-nav">
-		<div class="nav-brand">
-			<img src="assets/logo.png" height="105" width="105" alt="logo">
-		</div>
-		<div>
-			<h2 class="desktop-h2">codeup design</h2>
-		</div>
-	</div>
-	<div class="desktop-nav-items">
-		<div class="dt-nav-item-1">
-			<a href="">SERVICES</a>
-		</div>
-		<div class="dt-nav-item-1">
-			<a href="">WORK</a>
-		</div>
-		<div class="dt-nav-item-1">
-			<a href="">BLOG</a>
-		</div>
-		<div class="dt-nav-item-1">
-			<a href="">CONTACT</a>
-		</div>
-	</div>
-</nav>
-
-<!--Tablet view nav below-->
-<div class="mb-5 tablet-view-nav mt-2">
-	<div class="navbar tablet-container">
-		<div>
-			<a href="#">SERVICES</a>
-		</div>
-		<div>
-			<a href="#">WORK</a>
-		</div>
-		<div>
-			<img src="assets/logo.png" alt="logo" width="105" height="105">
-		</div>
-		<div>
-			<a href="#">BLOG</a>
-		</div>
-		<div>
-			<a href="#">CONTACT</a>
-		</div>
-	</div>
-	<div class="tablet-container-2">
-		<div>
-			<h1>codeup design</h1>
-		</div>
-	</div>
+<!-- MOBILE VIEW BANNER-->
+<div class="mobile-view-logo-banner d-lg-none">
+	<img width="105" height="105" src="assets/logo.png" alt="logo">
 </div>
-<!--Mobile view nav below-->
-<nav class="navbar justify-content-center mobile-view-nav">
-	<a class="navbar-brand d-md-inline-block" href="#">
-		<img class="ml-4" src="assets/logo.png" alt="logo" width="105" height="105">
-	</a>
-	<h1 class="d-sm-block">codeup design</h1>
-	<ul class="navbar-nav navbar-expand">
-		<li class="nav-item">
-			<a href="#" class="nav-link mr-3">SERVICES</a>
+<!--MOBILE VIEW BANNER END-->
+<!--TABLET VIEW BANNER/NAV-->
+<div class="tablet-view-logo-banner d-lg-none">
+	<ul class="tablet-view-nav">
+		<li class="tablet-view-nav-items">
+			<a href="#">SERVICES</a>
 		</li>
-		<li class="nav-item">
-			<a href="#" class="nav-link mr-3">WORK</a>
+		<li class="tablet-view-nav-items">
+			<a href="#">WORK</a>
 		</li>
-		<li class="nav-item">
-			<a href="#" class="nav-link mr-3">BLOG</a>
+		<li class="tablet-view-nav-items">
+			<img width="105" height="105" src="assets/logo.png" alt="logo">
 		</li>
-		<li class="nav-item">
-			<a href="#" class="nav-link">CONTACT</a>
+		<li class="tablet-view-nav-items">
+			<a href="#">BLOG</a>
+		</li>
+		<li class="tablet-view-nav-items">
+			<a href="#">CONTACT</a>
 		</li>
 	</ul>
-</nav>
-
-<!--JUMBOTRON SECTION-->
-<!--tablet view jumbotron-->
-<div class="jumbotron jumbotron-fluid tablet-view-jumbotron text-center">
-	<h1>VISUAL DESIGN & WEB DEVELOPMENT</h1><br>
+</div>
+<!--TABLET VIEW BANNER/NAV END-->
+<!--MOBILE/TABLET VIEW HEADER-->
+<div class="mobile-view-header d-lg-none">
+	<h1 class="mt-sm-2 mt-md-5">codeup design</h1>
+</div>
+<!--MOBILE/TABLET VIEW HEADER END-->
+<!--MOBILE VIEW NAV-->
+<div class="mobile-view-nav d-lg-none">
+	<ul class="mobile-view-nav-items">
+		<li>
+			<a href="#">SERVICES</a>
+		</li>
+		<li>
+			<a href="#">WORK</a>
+		</li>
+		<li>
+			<a href="#">BLOG</a>
+		</li>
+		<li>
+			<a href="#">CONTACT</a>
+		</li>
+	</ul>
+</div>
+<!--MOBILE VIEW NAV END-->
+<!--DESKTOP VIEW NAVBAR-->
+<div style="height: 65px;" class="navbar navbar-expand-lg bg-white mt-lg-4">
+	<div class="navbar-brand">
+		<img width="105" height="105" class="d-lg-inline-block align-middle" src="assets/logo.png" alt="logo">
+		<span style="font-size: xx-large;" class="ml-lg-2">codeup designs</span>
+	</div>
+	<ul class="navbar-nav ml-lg-auto">
+		<li class="nav-item">
+			<a href="#" class="nav-link m-lg-3">SERVICES</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link m-lg-3">WORK</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link m-lg-3">BLOG</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link m-lg-3">CONTACT</a>
+		</li>
+	</ul>
+</div>
+<!--DESKTOP VIEW NAVBAR END-->
+<!--JUMBOTRON MOBILE-->
+<div class="container d-lg-none">
+	<div class="mobile-view-jumbotron">
+		<h1>VISUAL DESIGN & <br>
+			WEB DEVELOPMENT
+		</h1> <br>
+		<h2>FROM PARK CITY, UTAH</h2>
+	</div>
+</div>
+<!--JUMBOTRON MOBILE END-->
+<!--TABLET JUMBOTRON-->
+<div class="tablet-jumbo-container d-lg-none">
+	<div class="tablet-jumbotron">
+		<h1>VISUAL DESIGN & WEB DEVELOPMENT <br>
+		</h1> <br>
+		<h2>FROM PARK CITY, UTAH</h2>
+	</div>
+</div>
+<!--TABLET JUMBOTRON END-->
+<!--DESKTOP JUMBOTRON-->
+<div class="jumbotron jumbotron-fluid text-center bg-transparent d-lg-block d-md-none d-none">
+	<h1>VISUAL DESIGN & WEB DEVELOPMENT <br>
+	</h1>
 	<h2>FROM PARK CITY, UTAH</h2>
 </div>
-
-<!--Mobile view jumbotron-->
-<div class="jumbotron jumbotron-fluid text-center mobile-view-jumbotron">
-	<h1>VISUAL DESIGN &<br>
-		WEB DEVELOPMENT
-	</h1><br>
-	<h2>FROM PARK CITY, UTAH</h2>
-</div>
-
-<!--design, develop, support, host CIRCLES-->
-<!--circles tablet view-->
-<div class="tablet-view-circles container mt-5">
-	<div class="tablet-circle red-circle m-2">DESIGN</div>
-	<div class="tablet-circle orange-circle m-2">DEVELOP</div>
-	<div class="tablet-circle green-circle m-2">SUPPORT</div>
-	<div class="tablet-circle blue-circle m-2">HOST</div>
-</div>
-<!--circles mobile-->
-<div class="mobile-view-circles container">
-	<div class="row justify-content-center">
-		<div class="circle red-circle m-2"><span class="circle-text">DESIGN</span></div>
-		<div class="circle orange-circle m-2"><span class="circle-text">DEVELOP</span></div>
+<!--DESKTOP JUMBOTRON END-->
+<!--MOBILE CIRCLES-->
+<div class="mobile-circle-box d-lg-none">
+	<div class="circle red-circle mr-1">
+		DESIGN
 	</div>
-	<div class="row justify-content-center">
-		<div class="circle green-circle m-2"><span class="circle-text">SUPPORT</span></div>
-		<div class="circle blue-circle m-2"><span class="circle-text">HOST</span></div>
+	<div class="circle orange-circle ml-1">
+		DEVELOP
 	</div>
 </div>
+<div class="mobile-circle-box-2 d-lg-none">
+	<div class="circle green-circle mr-1">
+		SUPPORT
+	</div>
+	<div class="circle blue-circle ml-1">
+		HOST
+	</div>
+</div>
+<!--MOBILE CIRCLES END-->
+<!--TABLET CIRCLES-->
+<div class="tablet-circle-container d-lg-flex justify-content-lg-center">
+	<div class="tablet-circles d-none d-md-flex">
+		<div class="tablet-circle circle red-circle m-lg-3">
+			DESIGN
+		</div>
+		<div class="tablet-circle circle orange-circle m-lg-3">
+			DEVELOP
+		</div>
+		<div class="tablet-circle circle green-circle m-lg-3">
+			SUPPORT
+		</div>
+		<div class="tablet-circle circle blue-circle m-lg-3">
+			HOST
+		</div>
+	</div>
+</div>
+<!--TABLET CIRCLES END-->
+<hr class="page-break d-none d-md-block">
 <br>
-
-<hr class="divider">
-<!--desktop h5-->
-<div class="container d-flex desktop-h5">
-	<div id="selected-work">
-		<h5>SELECTED WORK</h5>
+<br>
+<br>
+<!--DESKTOP SELECTED WORK-->
+<div class="desktop-selected-containter container d-none d-md-none d-lg-flex">
+	<div class="column-1 d-lg-flex flex-column">
+		<!--add pictures and captions-->
+		<div>
+			<img width="300" height="200" src="assets/images/apple-ipad.jpg" alt="i-pad">
+			<div class="photo-caption d-lg-flex">
+				<h5 class="caption-title">FEATURED PROJECT</h5>
+				<ul class="caption-circles">
+					<li class="small-circle red-circle">
+						D
+					</li>
+					<li class="small-circle orange-circle">
+						D
+					</li>
+					<li class="small-circle green-circle">
+						S
+					</li>
+					<li class="small-circle blue-circle">
+						H
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<img width="300" height="200" src="assets/images/man.jpg" alt="man">
+			<div class="photo-caption d-lg-flex">
+				<h5 class="caption-title">FEATURED PROJECT</h5>
+				<ul class="caption-circles">
+					<li class="small-circle red-circle">
+						D
+					</li>
+					<li class="small-circle orange-circle">
+						D
+					</li>
+					<li class="small-circle green-circle">
+						S
+					</li>
+					<li class="small-circle blue-circle">
+						H
+					</li>
+				</ul>
+			</div>
+		</div>
+	
 	</div>
-	<div id="the-last">
-		<h5>THE LAST</h5>
+	<div class="column-2 d-lg-flex flex-column">
+		<div>
+			<img width="300" height="200" src="assets/images/macbook.jpg" alt="macbook">
+			<div class="photo-caption d-lg-flex">
+				<h5 class="caption-title">FEATURED PROJECT</h5>
+				<ul class="caption-circles">
+					<li class="small-circle red-circle">
+						D
+					</li>
+					<li class="small-circle orange-circle">
+						D
+					</li>
+					<li class="small-circle green-circle">
+						S
+					</li>
+					<li class="small-circle blue-circle">
+						H
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<img width="300" height="200" src="assets/images/security.jpg" alt="security">
+			<div class="photo-caption d-lg-flex">
+				<h5 class="caption-title">FEATURED PROJECT</h5>
+				<ul class="caption-circles">
+					<li class="small-circle red-circle">
+						D
+					</li>
+					<li class="small-circle orange-circle">
+						D
+					</li>
+					<li class="small-circle green-circle">
+						S
+					</li>
+					<li class="small-circle blue-circle">
+						H
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="column-3 d-lg-flex flex-column">
+		<div class="d-lg-flex">
+			<img class="m-2 d-lg-flex" width="50" height="50" src="assets/images/mobile-phone.jpg" alt="cell">
+			<span class="last-col-text">THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</span>
+		</div>
+		<div>
+			<img class="m-2" width="50" height="50" src="assets/images/head.jpg" alt="c-face">
+			<span class="last-col-text">NIBBLER AWESOME <br> WEBSITE TESTING</span>
+		</div>
+		<div>
+			<img class="m-2" width="50" height="50" src="assets/images/google-search.jpg" alt="google">
+			<span class="last-col-text">HOW TO GET GOOGLE TO <br> LIKE YOU</span>
+		</div>
+		<div>
+			<div class="twitter-logo m-2">
+				<i class="bi bi-twitter"></i>
+				LAST TWEET
+			</div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi ducimus eaque error et exercitationem itaque numquam ullam. Alias architecto beatae doloremque ducimus harum ipsum laudantium magnam nam numquam perspiciatis.
+		</div>
 	</div>
 </div>
 
-<!-- footer for mobile view	-->
-<section class="container mt-2">
-	<header  class="container mb-5 d-lg-flex text-center justify-content-lg-start">
-		<h5 id="h5-remove-dt">SELECTED WORK</h5>
-	</header>
-	<div class="row">
-		<div class="row col-md-8">
-			<div class="featured-project col-12 col-sm-6">
-					<img class="desktop-view " src="assets/images/apple-ipad.jpg" alt="apple-ipad">
-				<div class="container">
-					<div class="row mr-2">
-						<div class="col-7 mr-auto mt-1 pt-1">
-							<h6 class="pic-caption">FEATURED PROJECT</h6>
-						</div>
-						<div class="col-5 d-flex ml-auto mt-1">
-							<div class="small-circles small-red-circle red-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles orange-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles green-circle m-1">
-								<span class="small-circle-text">S</span>
-							</div>
-							<div class="small-circles blue-circle m-1">
-								<span class="small-circle-text">H</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="featured-project col-12 col-sm-6">
-					<img class="desktop-view" src="assets/images/macbook.jpg" alt="mac">
-				<div class="container">
-					<div class="row mr-2">
-						<div class="col-7 mr-auto mt-1 pt-1">
-							<h6 class="pic-caption">FEATURED PROJECT</h6>
-						</div>
-						<div class="col-5 d-flex ml-auto mt-1">
-							<div class="small-circles small-red-circle red-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles orange-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles green-circle m-1">
-								<span class="small-circle-text">S</span>
-							</div>
-							<div class="small-circles blue-circle m-1">
-								<span class="small-circle-text">H</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="featured-project col-12 col-sm-6">
-					<img class="desktop-view" src="assets/images/man.jpg" alt="man">
-				<div class="container">
-					<div class="row mr-2">
-						<div class="col-7 mr-auto mt-1 pt-1">
-							<h6 class="pic-caption">FEATURED PROJECT</h6>
-						</div>
-						<div class="col-5 d-flex ml-auto mt-1">
-							<div class="small-circles small-red-circle red-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles orange-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles green-circle m-1">
-								<span class="small-circle-text">S</span>
-							</div>
-							<div class="small-circles blue-circle m-1">
-								<span class="small-circle-text">H</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="featured-project col-12 col-sm-6">
-					<img class="desktop-view" src="assets/images/security.jpg" alt="security">
-				<div class="container">
-					<div class="row mr-2">
-						<div class="col-7 mr-auto mt-1 pt-1">
-							<h6 class="pic-caption">FEATURED PROJECT</h6>
-						</div>
-						<div class="col-5 d-flex ml-auto mt-1">
-							<div class="small-circles small-red-circle red-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles orange-circle m-1">
-								<span class="small-circle-text">D</span>
-							</div>
-							<div class="small-circles green-circle m-1">
-								<span class="small-circle-text">S</span>
-							</div>
-							<div class="small-circles blue-circle m-1">
-								<span class="small-circle-text">H</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="d-none d-md-flex col-md-4">
-			<div class="last-col-row row m-2">
-				<img class="m-2" width="75" height="75" src="assets/images/mobile-phone.jpg" alt="cell">
-				<span class="last-col-text font-weight-bolder">THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</span>
-			</div>
-			<div class="last-col-row row m-2">
-				<img class="m-2" width="75" height="75" src="assets/images/head.jpg" alt="c-face">
-				<span class="last-col-text">NIBBLER AWESOME <br> WEBSITE TESTING</span>
-			</div>
-			<div class="last-col-row row m-2">
-				<img class="m-2" width="75" height="75" src="assets/images/google-search.jpg" alt="google">
-				<span class="last-col-text">HOW TO GET GOOGLE TO <br> LIKE YOU</span>
-			</div>
-			<div class="last-col-row row m-2">
-				<div class="twitter-logo">
-					<i class="bi bi-twitter mr-1"></i>
-					LAST TWEET
-				</div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi ducimus eaque error et exercitationem itaque numquam ullam. Alias architecto beatae doloremque ducimus harum ipsum laudantium magnam nam numquam perspiciatis.
-			</div>
-
-		</div>
-
+<!--MOBILE SELECTED WORK-->
+<div class="selected-work d-md-flex d-lg-none">
+	<h5>SELECTED WORK</h5>
+</div>
+<div class="i-pad-container d-md-none d-lg-none">
+	<img width="300" height="200" src="assets/images/apple-ipad.jpg" alt="i-pad">
+</div>
+<div class="photo-caption d-lg-none">
+	<h5 class="caption-title">FEATURED PROJECT</h5>
+	<ul class="caption-circles">
+		<li class="small-circle red-circle">
+			D
+		</li>
+		<li class="small-circle orange-circle">
+			D
+		</li>
+		<li class="small-circle green-circle">
+			S
+		</li>
+		<li class="small-circle blue-circle">
+			H
+		</li>
+	</ul>
+</div>
+<!--MOBILE SELECTED WORK END-->
+<!--TABLET SELECTED WORK-->
+<div class="d-none selected-work-row-1 d-md-flex justify-content-md-center mt-md-5 d-lg-none">
+	<div class="i-pad mr-4">
+		<img width="300" height="200" src="assets/images/apple-ipad.jpg" alt="ipad">
 	</div>
-<!--		&lt;!&ndash;changes by jd above and changes by alejandro below- -->
+	<div class="laptop ml-4">
+		<img width="300" height="200" src="assets/images/macbook.jpg" alt="macbook">
+	</div>
+</div>
+<div class="tablet-caption-container-row-1 d-none d-md-flex justify-content-md-center mt-md-2 d-lg-none">
+	<div class="tablet-caption-row-left d-md-flex mr-md-5">
+		<h5 class="caption-title mr-md-3">FEATURED PROJECT</h5>
+		<ul class="caption-circles ml-md-3">
+			<li class="small-circle red-circle">
+				D
+			</li>
+			<li class="small-circle orange-circle">
+				D
+			</li>
+			<li class="small-circle green-circle">
+				S
+			</li>
+			<li class="small-circle blue-circle">
+				H
+			</li>
+		</ul>
+	</div>
+	<div class="tablet-caption-row-right d-md-flex ml-md-5">
+		<h5 class="caption-title mr-md-3">FEATURED PROJECT</h5>
+		<ul class="caption-circles ml-md-3">
+			<li class="small-circle red-circle">
+				D
+			</li>
+			<li class="small-circle orange-circle">
+				D
+			</li>
+			<li class="small-circle green-circle">
+				S
+			</li>
+			<li class="small-circle blue-circle">
+				H
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="d-none selected-work-row-2 d-md-flex justify-content-md-center mt-md-3 d-lg-none">
+	<div class="i-pad mr-4">
+		<img width="300" height="200" src="assets/images/man.jpg" alt="man">
+	</div>
+	<div class="laptop ml-4">
+		<img width="300" height="200" src="assets/images/security.jpg" alt="security">
+	</div>
+</div>
+<div class="tablet-caption-container-row-2 d-none d-md-flex justify-content-md-center  d-lg-none">
+	<div class="tablet-caption-row-left d-md-flex mr-md-5">
+		<h5 class="caption-title mr-md-3">FEATURED PROJECT</h5>
+		<ul class="caption-circles ml-md-3">
+			<li class="small-circle red-circle">
+				D
+			</li>
+			<li class="small-circle orange-circle">
+				D
+			</li>
+			<li class="small-circle green-circle">
+				S
+			</li>
+			<li class="small-circle blue-circle">
+				H
+			</li>
+		</ul>
+	</div>
+	<div class="tablet-caption-row-right d-md-flex ml-md-5">
+		<h5 class="caption-title mr-md-3">FEATURED PROJECT</h5>
+		<ul class="caption-circles ml-md-3">
+			<li class="small-circle red-circle">
+				D
+			</li>
+			<li class="small-circle orange-circle">
+				D
+			</li>
+			<li class="small-circle green-circle">
+				S
+			</li>
+			<li class="small-circle blue-circle">
+				H
+			</li>
+		</ul>
+	</div>
+</div>
+<!--TABLET SELECTED WORK END-->
 
-</section>
+
+
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
 </body>
 </html>
